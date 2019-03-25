@@ -45,13 +45,13 @@ namespace Lottery
 
                 foreach (KeyValuePair<string, List<int>> pair in players)
                 {
-                    foreach (int number in pair.Value)
+                    foreach (int number in pair.Value) // Adding points
                     {
                         if (luckyNumber == number)
                             points[pair.Key] += 1;
                     }
                 }
-                foreach (KeyValuePair<string, int> item in points)
+                foreach (KeyValuePair<string, int> item in points) // Identifying winner
                 {
                     if (item.Value == PointsToWin)
                     {
