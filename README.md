@@ -22,5 +22,6 @@ Data Validation:
                   [B] Name length is equal or less than 15
                   
                   [C] Two players with the same name is not allowed
-                  
-[3] It's possible that appears more than one winner                 
+      
+[3] All random numbers in range from 1 to 50      
+[4] It's possible that appears more than one winner                 
