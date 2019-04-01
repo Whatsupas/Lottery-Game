@@ -2,7 +2,7 @@
 Play and Win
 
 Program flow:
-
+-----------------------
 [1] Players registration
 
 [2] Each player gets 3 unique numbers
@@ -11,15 +11,13 @@ Program flow:
 
 [4] First player who collect 3 numbers wins the lottery game
 
-
-
-Data Validation
-
+Data Validation:
+-----------------------
 [1] Maximum 10 players per game
 
 [2] Player name :
 
-                  [A]Not null or whitespace
+                  [A] Not null or whitespace
 
                   [B] Name length is equal or less than 15
                   
