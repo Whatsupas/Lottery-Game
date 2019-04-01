@@ -89,9 +89,9 @@ namespace Lottery
 
                 string playerName = Console.ReadLine();
 
-                bool isNameCorrect = players.ContainsKey(playerName) || String.IsNullOrWhiteSpace(playerName) || playerName.Length > 15;
+                bool isNameWrong = players.ContainsKey(playerName) || String.IsNullOrWhiteSpace(playerName) || playerName.Length > 15;
 
-                if (!isNameCorrect)
+                if (!isNameWrong)
                 {
                     players.Add(playerName, NumbersGenerator.GenerateListWithUniqueNumbers(3, 1, 50));
                     counter++;
