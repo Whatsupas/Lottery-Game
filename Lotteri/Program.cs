@@ -27,7 +27,7 @@ namespace Lottery
             Dictionary<string, List<int>> players = AddPlayersToDictionary(totalPlayers);
 
             WritePlayersNumbers(players);
-            ConsoleHelper.WriteLineInTypingStyle("Generating lucky numbers until winner(s) occurs :\n ",50, ConsoleColor.Blue);
+            ConsoleHelper.WriteLineInTypingStyle("Generating lucky numbers until the winner(s) appears :\n ",50, ConsoleColor.Blue);
 
             var points = new Dictionary<string, int>();
             var playersNames = players.Keys.ToList();
