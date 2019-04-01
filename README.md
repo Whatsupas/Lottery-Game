@@ -1,7 +1,7 @@
 # Lottery-Game
 Play and Win
 
-Program flow:
+Program flow:\n
 [1] Players registration
 [2] Each player gets 3 unique numbers
 [3] Computer generating and printing lucky numbers until the winner appears
