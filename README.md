@@ -23,5 +23,6 @@ Data Validation:
                   
                   [C] Two players with the same name is not allowed
       
-[3] All random numbers in range from 1 to 50      
+[3] All random numbers in range from 1 to 50 
+
 [4] It's possible that appears more than one winner                 
