@@ -24,7 +24,7 @@ namespace Lottery
                 ConsoleHelper.WriteLineColerful("Wrong input try again", ConsoleColor.Red);
             } while (true);
 
-            Dictionary<string, List<int>> players = AddPlayersToDictionary(totalPlayers);
+            Dictionary<string, List<int>> players = RegisterPlayers(totalPlayers);
 
             WritePlayersNumbers(players);
             ConsoleHelper.WriteLineInTypingStyle("Generating lucky numbers until the winner(s) appears :\n ",50, ConsoleColor.Blue);
@@ -77,7 +77,7 @@ namespace Lottery
             }
         }
 
-        private static Dictionary<string, List<int>> AddPlayersToDictionary(int totalPlayers)
+        private static Dictionary<string, List<int>> RegisterPlayers(int totalPlayers)
         {
             var players = new Dictionary<string, List<int>>();
             int counter = 0;
