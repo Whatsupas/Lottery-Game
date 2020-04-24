@@ -24,7 +24,7 @@ namespace Lottery
         public static Queue<int> GenerateQueueWithUniqueNumbers(int count, int minValue, int maxValue)
         {
             if (count > maxValue)
-                throw new ArgumentException("maxValue must be equel or more than count");
+                throw new ArgumentException("maxValue must be equel or greater than count");
 
             Queue<int> temporaryQueue = new Queue<int>();
 
