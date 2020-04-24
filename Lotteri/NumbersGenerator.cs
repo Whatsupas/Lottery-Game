@@ -11,7 +11,7 @@ namespace Lottery
         public static List<int> GenerateListWithUniqueNumbers(int count, int minValue, int maxValue)
         {
             if (count > maxValue)
-                throw new ArgumentException("maxValue must be equel or more than count");
+                throw new ArgumentException("maxValue must be equel or greater than count");
 
             HashSet<int> temporarySet = new HashSet<int>();
 
